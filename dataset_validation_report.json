@@ -1,0 +1,17 @@
+{
+  "validation_timestamp": "2026-03-21 00:24:29.840845",
+  "total_images": 5491,
+  "valid_images": 5491,
+  "valid_percentage": 100.0,
+  "issues": {
+    "corrupted_count": 0,
+    "invalid_format_count": 0,
+    "duplicate_groups": 6,
+    "unusual_size_count": 0
+  },
+  "classes": {
+    "benign": 2735,
+    "malignant": 2756
+  },
+  "status": "READY"
+}

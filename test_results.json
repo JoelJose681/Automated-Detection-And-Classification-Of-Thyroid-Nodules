@@ -1,0 +1,18 @@
+{
+  "overall_accuracy": 56.60893345487694,
+  "benign_accuracy": 49.438202247191015,
+  "malignant_accuracy": 63.41030195381883,
+  "benign_correct": 264,
+  "benign_total": 534,
+  "malignant_correct": 357,
+  "malignant_total": 563,
+  "sensitivity": 0.6341030195381883,
+  "specificity": 0.4943820224719101,
+  "precision": 0.569377990430622,
+  "f1_score": 0.6,
+  "true_negatives": 264,
+  "false_positives": 270,
+  "false_negatives": 206,
+  "true_positives": 357,
+  "timestamp": "2026-03-22T09:15:37.732232"
+}

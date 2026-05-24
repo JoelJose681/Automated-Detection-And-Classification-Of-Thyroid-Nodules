@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-03-20T23:49:28.512263",
+  "model": "ResNet50 (GitHub FYP)",
+  "method": "Architecture reconstruction + weight loading",
+  "expected_accuracy": "62.95%",
+  "benign": {
+    "accuracy": 97.0,
+    "correct": 97,
+    "total": 100,
+    "avg_confidence": 0.49893946141004564
+  },
+  "malignant": {
+    "accuracy": 1.0,
+    "correct": 1,
+    "total": 100,
+    "avg_confidence": 0.4989910906553268
+  },
+  "overall_accuracy": 49.0
+}

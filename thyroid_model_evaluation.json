@@ -1,0 +1,86 @@
+{
+  "ResNet50 + Thyroid Fine-tune": {
+    "model_name": "ResNet50 + Thyroid Fine-tune",
+    "timestamp": "2026-03-20T18:19:55.155704",
+    "overall_accuracy": 43.5,
+    "avg_confidence": 0.3760375396410624,
+    "total_tested": 600,
+    "per_class": {
+      "benign": {
+        "accuracy": 18.666666666666668,
+        "correct": 56.0,
+        "total": 300.0,
+        "avg_confidence": 0.37648774961630505
+      },
+      "malignant": {
+        "accuracy": 68.33333333333333,
+        "correct": 205.0,
+        "total": 300.0,
+        "avg_confidence": 0.3755873296658198
+      }
+    }
+  },
+  "EfficientNet-B4 Medical": {
+    "model_name": "EfficientNet-B4 Medical",
+    "timestamp": "2026-03-20T18:20:07.525913",
+    "overall_accuracy": 51.0,
+    "avg_confidence": 0.3511165927847226,
+    "total_tested": 600,
+    "per_class": {
+      "benign": {
+        "accuracy": 21.666666666666668,
+        "correct": 65.0,
+        "total": 300.0,
+        "avg_confidence": 0.3519131299853325
+      },
+      "malignant": {
+        "accuracy": 80.33333333333333,
+        "correct": 241.0,
+        "total": 300.0,
+        "avg_confidence": 0.3503200555841128
+      }
+    }
+  },
+  "DenseNet-161 Medical": {
+    "model_name": "DenseNet-161 Medical",
+    "timestamp": "2026-03-20T18:20:21.237892",
+    "overall_accuracy": 49.166666666666664,
+    "avg_confidence": 0.4419107917447885,
+    "total_tested": 600,
+    "per_class": {
+      "benign": {
+        "accuracy": 0.33333333333333337,
+        "correct": 1.0,
+        "total": 300.0,
+        "avg_confidence": 0.44405363033215206
+      },
+      "malignant": {
+        "accuracy": 98.0,
+        "correct": 294.0,
+        "total": 300.0,
+        "avg_confidence": 0.43976795315742495
+      }
+    }
+  },
+  "Vision Transformer (ViT) Medical": {
+    "model_name": "Vision Transformer (ViT) Medical",
+    "timestamp": "2026-03-20T18:20:41.805654",
+    "overall_accuracy": 0.0,
+    "avg_confidence": 0.0,
+    "total_tested": 0,
+    "per_class": {
+      "benign": {
+        "accuracy": 0.0,
+        "correct": 0.0,
+        "total": 300.0,
+        "avg_confidence": 0.0
+      },
+      "malignant": {
+        "accuracy": 0.0,
+        "correct": 0.0,
+        "total": 300.0,
+        "avg_confidence": 0.0
+      }
+    }
+  }
+}

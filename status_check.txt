@@ -1,0 +1,15 @@
+API Status Check
+==================================================
+{
+  "device": "cuda",
+  "message": "Thyroid Nodule Detection & Classification API",
+  "pipeline": {
+    "classification_ready": true,
+    "detection_ready": true
+  },
+  "status": "success",
+  "version": "2.0.0"
+}
+==================================================
+Detection Ready: True
+Classification Ready: True

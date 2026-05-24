@@ -1,0 +1,320 @@
+{
+  "thyroid_B256_SD_B4.pt": {
+    "model_name": "thyroid_B256_SD_B4.pt",
+    "timestamp": "2026-03-20T17:59:50.352290",
+    "overall_accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "total_tested": 1000,
+    "datasets": {
+      "benign": {
+        "accuracy": 0.0,
+        "correct_predictions": 0,
+        "total_images": 500,
+        "predictions_breakdown": {
+          "Benign": {
+            "Indeterminate": 500
+          }
+        },
+        "confidence_stats": {
+          "Indeterminate": {
+            "mean": 0.3355524241924286,
+            "std": 0.0,
+            "min": 0.3355524241924286,
+            "max": 0.3355524241924286
+          }
+        }
+      },
+      "malignant": {
+        "accuracy": 0.0,
+        "correct_predictions": 0,
+        "total_images": 500,
+        "predictions_breakdown": {
+          "Malignant": {
+            "Indeterminate": 500
+          }
+        },
+        "confidence_stats": {
+          "Indeterminate": {
+            "mean": 0.3355524241924286,
+            "std": 0.0,
+            "min": 0.3355524241924286,
+            "max": 0.3355524241924286
+          }
+        }
+      }
+    },
+    "confusion_matrix": {
+      "Benign": {
+        "Indeterminate": 500
+      },
+      "Malignant": {
+        "Indeterminate": 500
+      }
+    }
+  },
+  "thyroid_B256_SD_B4_last.pt": {
+    "model_name": "thyroid_B256_SD_B4_last.pt",
+    "timestamp": "2026-03-20T18:00:49.315501",
+    "overall_accuracy": 50.0,
+    "balanced_accuracy": 50.0,
+    "total_tested": 1000,
+    "datasets": {
+      "benign": {
+        "accuracy": 0.0,
+        "correct_predictions": 0,
+        "total_images": 500,
+        "predictions_breakdown": {
+          "Benign": {
+            "Malignant": 500
+          }
+        },
+        "confidence_stats": {
+          "Malignant": {
+            "mean": 0.33608368039131165,
+            "std": 0.0,
+            "min": 0.33608368039131165,
+            "max": 0.33608368039131165
+          }
+        }
+      },
+      "malignant": {
+        "accuracy": 100.0,
+        "correct_predictions": 500,
+        "total_images": 500,
+        "predictions_breakdown": {
+          "Malignant": {
+            "Malignant": 500
+          }
+        },
+        "confidence_stats": {
+          "Malignant": {
+            "mean": 0.33608368039131165,
+            "std": 0.0,
+            "min": 0.33608368039131165,
+            "max": 0.33608368039131165
+          }
+        }
+      }
+    },
+    "confusion_matrix": {
+      "Benign": {
+        "Malignant": 500
+      },
+      "Malignant": {
+        "Malignant": 500
+      }
+    }
+  },
+  "thyroid_B256_SD_maxpool.pt": {
+    "model_name": "thyroid_B256_SD_maxpool.pt",
+    "timestamp": "2026-03-20T18:01:12.128825",
+    "overall_accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "total_tested": 1000,
+    "datasets": {
+      "benign": {
+        "accuracy": 0.0,
+        "correct_predictions": 0,
+        "total_images": 500,
+        "predictions_breakdown": {
+          "Benign": {
+            "Indeterminate": 500
+          }
+        },
+        "confidence_stats": {
+          "Indeterminate": {
+            "mean": 0.3361493647098541,
+            "std": 0.0,
+            "min": 0.3361493647098541,
+            "max": 0.3361493647098541
+          }
+        }
+      },
+      "malignant": {
+        "accuracy": 0.0,
+        "correct_predictions": 0,
+        "total_images": 500,
+        "predictions_breakdown": {
+          "Malignant": {
+            "Indeterminate": 500
+          }
+        },
+        "confidence_stats": {
+          "Indeterminate": {
+            "mean": 0.3361493647098541,
+            "std": 0.0,
+            "min": 0.3361493647098541,
+            "max": 0.3361493647098541
+          }
+        }
+      }
+    },
+    "confusion_matrix": {
+      "Benign": {
+        "Indeterminate": 500
+      },
+      "Malignant": {
+        "Indeterminate": 500
+      }
+    }
+  },
+  "thyroid_B256_SD_maxpool_last.pt": {
+    "model_name": "thyroid_B256_SD_maxpool_last.pt",
+    "timestamp": "2026-03-20T18:01:34.837014",
+    "overall_accuracy": 50.0,
+    "balanced_accuracy": 50.0,
+    "total_tested": 1000,
+    "datasets": {
+      "benign": {
+        "accuracy": 100.0,
+        "correct_predictions": 500,
+        "total_images": 500,
+        "predictions_breakdown": {
+          "Benign": {
+            "Benign": 500
+          }
+        },
+        "confidence_stats": {
+          "Benign": {
+            "mean": 0.33388763666152954,
+            "std": 0.0,
+            "min": 0.33388763666152954,
+            "max": 0.33388763666152954
+          }
+        }
+      },
+      "malignant": {
+        "accuracy": 0.0,
+        "correct_predictions": 0,
+        "total_images": 500,
+        "predictions_breakdown": {
+          "Malignant": {
+            "Benign": 500
+          }
+        },
+        "confidence_stats": {
+          "Benign": {
+            "mean": 0.33388763666152954,
+            "std": 0.0,
+            "min": 0.33388763666152954,
+            "max": 0.33388763666152954
+          }
+        }
+      }
+    },
+    "confusion_matrix": {
+      "Benign": {
+        "Benign": 500
+      },
+      "Malignant": {
+        "Benign": 500
+      }
+    }
+  },
+  "thyroid_B256_SD_resB4.pt": {
+    "model_name": "thyroid_B256_SD_resB4.pt",
+    "timestamp": "2026-03-20T18:01:57.410452",
+    "overall_accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "total_tested": 1000,
+    "datasets": {
+      "benign": {
+        "accuracy": 0.0,
+        "correct_predictions": 0,
+        "total_images": 500,
+        "predictions_breakdown": {
+          "Benign": {
+            "Indeterminate": 500
+          }
+        },
+        "confidence_stats": {
+          "Indeterminate": {
+            "mean": 0.33830806612968445,
+            "std": 0.0,
+            "min": 0.33830806612968445,
+            "max": 0.33830806612968445
+          }
+        }
+      },
+      "malignant": {
+        "accuracy": 0.0,
+        "correct_predictions": 0,
+        "total_images": 500,
+        "predictions_breakdown": {
+          "Malignant": {
+            "Indeterminate": 500
+          }
+        },
+        "confidence_stats": {
+          "Indeterminate": {
+            "mean": 0.33830806612968445,
+            "std": 0.0,
+            "min": 0.33830806612968445,
+            "max": 0.33830806612968445
+          }
+        }
+      }
+    },
+    "confusion_matrix": {
+      "Benign": {
+        "Indeterminate": 500
+      },
+      "Malignant": {
+        "Indeterminate": 500
+      }
+    }
+  },
+  "thyroid_B256_SD_resB4_last.pt": {
+    "model_name": "thyroid_B256_SD_resB4_last.pt",
+    "timestamp": "2026-03-20T18:02:19.888542",
+    "overall_accuracy": 50.0,
+    "balanced_accuracy": 50.0,
+    "total_tested": 1000,
+    "datasets": {
+      "benign": {
+        "accuracy": 0.0,
+        "correct_predictions": 0,
+        "total_images": 500,
+        "predictions_breakdown": {
+          "Benign": {
+            "Malignant": 500
+          }
+        },
+        "confidence_stats": {
+          "Malignant": {
+            "mean": 0.3418927788734436,
+            "std": 0.0,
+            "min": 0.3418927788734436,
+            "max": 0.3418927788734436
+          }
+        }
+      },
+      "malignant": {
+        "accuracy": 100.0,
+        "correct_predictions": 500,
+        "total_images": 500,
+        "predictions_breakdown": {
+          "Malignant": {
+            "Malignant": 500
+          }
+        },
+        "confidence_stats": {
+          "Malignant": {
+            "mean": 0.3418927788734436,
+            "std": 0.0,
+            "min": 0.3418927788734436,
+            "max": 0.3418927788734436
+          }
+        }
+      }
+    },
+    "confusion_matrix": {
+      "Benign": {
+        "Malignant": 500
+      },
+      "Malignant": {
+        "Malignant": 500
+      }
+    }
+  }
+}

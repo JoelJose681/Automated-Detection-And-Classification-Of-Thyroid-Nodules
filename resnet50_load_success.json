@@ -1,0 +1,8 @@
+{
+  "method": "Method 3: Load weights only",
+  "tensorflow_version": "2.16.1",
+  "model_type": "<class 'keras.src.models.functional.Functional'>",
+  "input_shape": "(None, 224, 224, 3)",
+  "output_shape": "(None, 2)",
+  "parameters": 23591810
+}

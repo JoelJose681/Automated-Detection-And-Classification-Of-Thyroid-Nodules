@@ -1,0 +1,129 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+thyroid_ai.db
+
+# Large model files (keep only in releases)
+*.pt
+*.h5
+*.pth
+*.onnx
+*.pb
+*.tflite
+yolo*.pt
+resnet*.h5
+
+# Dataset directories (too large for repo)
+dataset/raw/
+dataset/processed/
+Thyroid\ Dataset/
+Datasets\ for\ classification/
+downloaded_models/
+
+# Logs and temporary files
+*.log
+*.txt
+logs/
+*.tmp
+*.temp
+*.bak
+
+# Training outputs
+training_output.txt
+training_log*.txt
+monitor_*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node (if frontend is Node-based)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.next/
+.nuxt/
+.cache/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+
+# Test results
+test_results.json
+*_test_results.json
+pytest-results/
+.coverage
+htmlcov/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.tmp/
+
+# Model checkpoints (except key ones)
+checkpoints/*
+!checkpoints/best_model_balanced.pt
+!checkpoints/best_model.pt
+
+# Cache
+.cache/
+.pytest_cache/
+
